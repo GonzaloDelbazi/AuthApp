@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProtegidaComponent } from './components/protegida/protegida.component';
 import { PreciosComponent } from './components/precios/precios.component';
 import { AuthModule } from '@auth0/auth0-angular';
+import { CallbackComponent } from './components/callback/callback.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AuthModule } from '@auth0/auth0-angular';
     NavBarComponent,
     HomeComponent,
     ProtegidaComponent,
-    PreciosComponent
+    PreciosComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
